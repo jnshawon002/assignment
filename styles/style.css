@@ -1,0 +1,67 @@
+/* 1st section */
+.main{
+    background-color: #FFF;
+}
+.main #container {
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#container {
+    background-image: url('../resources/Banner\ Image.png')
+}
+
+.main #container h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 0px;
+}
+
+.main #container p {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px;
+    margin-bottom: 16px;
+
+}
+
+/* 2nd section */
+.main .container .heding h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.main .container .heding p {
+    color: #F00;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.main .container .heding h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.main .container .banner {
+    width: 750.7px;
+    height: 500px;
+    margin: 0 auto;
+}
+.main .container{
+    margin: 0 auto;
+}
