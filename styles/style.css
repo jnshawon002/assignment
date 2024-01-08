@@ -1,5 +1,6 @@
 /* 1st section */
 ;
+
 .main {
     background-color: azure;
 }
@@ -145,6 +146,7 @@
     background-color: #F00;
     border-radius: 5px;
     margin-top: 40px;
+    cursor: pointer;
 
 }
 
@@ -248,7 +250,8 @@
     background-color: rgb(200, 207, 214);
     margin: 0 auto;
 }
-.main .holiday{
+
+.main .holiday {
     margin-bottom: 50px;
 }
 }
@@ -309,15 +312,70 @@
     line-height: 32px;
     margin-bottom: 15px;
 }
-.main #portfolio .bag{
+
+.main #portfolio .bag {
     display: flex;
 }
-.main #portfolio .bag img{
+
+.main #portfolio .bag img {
     padding: 8px;
 }
-.main #portfolio .sunglace{
+
+.main #portfolio .sunglace {
     display: flex;
 }
-.main #portfolio .sunglace img{
+
+.main #portfolio .sunglace img {
     padding: 8px;
+}
+
+/* 8th section */
+
+.main .newslater {
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    height: 620px;
+}
+
+.main .newslater .massage img {
+    width: 150px;
+    height: 150px;
+    margin-top: 65px;
+}
+
+.main .newslater .items h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main .newslater .items p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.main .newslater input {
+    width: 645px;
+    height: 70px;
+    border-radius: 50px;
+    background: #FFF;
+    border-style: none;
+    padding: 0 0 0 40px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.main .newslater button {
+    width: 210px;
+    height: 70px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.main{
+    margin-top: 100px;
 }
