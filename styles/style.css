@@ -1,8 +1,7 @@
 /* 1st section */
 ;
-
 .main {
-    background-color: #FFF;
+    background-color: azure;
 }
 
 .main #container {
@@ -198,10 +197,12 @@
     font-weight: 400;
     line-height: 32px;
 }
-.main .containe .text-items{
+
+.main .containe .text-items {
     margin: 0px 0px 0px 30px;
 }
-.main .containe .party-banner{
+
+.main .containe .party-banner {
     margin: 0 auto;
     width: 370px;
     height: 365px;
@@ -232,7 +233,91 @@
     height: 140px;
     margin-bottom: 0;
 }
-.main .containe .banner-two{
+
+.main .containe .banner-two {
     margin-right: 20px;
 
+}
+
+/* 6th section */
+.main .holiday .sale {
+    text-align: center;
+    width: 82%;
+    max-width: 1320px;
+    height: 850px;
+    background-color: rgb(200, 207, 214);
+    margin: 0 auto;
+}
+.main .holiday{
+    margin-bottom: 50px;
+}
+}
+
+.main .holiday .sale h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main .holiday .sale h1 {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.main .holiday .sale p {
+    color: rgba;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.main .holiday .sale .holi {
+    color: #F00;
+}
+
+/* 7th section */
+
+.main #portfolio {
+    width: 82%;
+    max-width: 1320px;
+    height: 900px;
+    background-color: #FFF;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.main #portfolio .intro h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main #portfolio .intro h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0 0 10px 0
+}
+
+.main #portfolio .intro p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.main #portfolio .bag{
+    display: flex;
+}
+.main #portfolio .bag img{
+    padding: 8px;
+}
+.main #portfolio .sunglace{
+    display: flex;
+}
+.main #portfolio .sunglace img{
+    padding: 8px;
 }
