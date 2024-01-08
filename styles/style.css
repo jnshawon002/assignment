@@ -1,5 +1,6 @@
 /* 1st section */
 ;
+
 .main {
     background-color: #FFF;
 }
@@ -97,6 +98,10 @@
     margin-left: 100px;
 }
 
+.main #contain .text-item {
+    margin-top: 120px;
+}
+
 .main #contain .text-item p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
@@ -156,7 +161,78 @@
     justify-content: center;
     border-radius: 20px;
 }
-.main #con .text-item{
+
+.main #con .text-item {
     padding-top: 100px;
     font-size: 32px;
+}
+
+/* 5th section */
+.main .containe {
+    display: flex;
+    width: 82%;
+    max-width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    gap: 60px 70px;
+    background-color: beige;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main .containe .text-items h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main .containe .text-items h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main .containe .text-items p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.main .containe .text-items{
+    margin: 0px 0px 0px 30px;
+}
+.main .containe .party-banner{
+    margin: 0 auto;
+    width: 370px;
+    height: 365px;
+    border: 15px solid #F00;
+    border-radius: 800px;
+    padding: 30px;
+    margin-right: 140px;
+    /* margin-top: 25px; */
+}
+
+
+.main .containe .banner-two h2 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main .containe .banner-two p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.main .containe .banner-two img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 0;
+}
+.main .containe .banner-two{
+    margin-right: 20px;
+
 }
